@@ -11,7 +11,7 @@ value1 = x$V1
 value2 = x$V2
 
 # 折れ線グラフを2つ混ぜて出力
-plot(density(value1), xlim=c(-1,4), ylim=c(0.0,0.8), type="l")
+plot(density(value1), xlim=c(-1,4), ylim=c(0.0,0.8), type="l", lty="longdash", col=rgb(0,1,0))
 par(new=T)
-plot(density(value2), xlim=c(-1,4), ylim=c(0.0,0.8), type="l")
+plot(density(value2), xlim=c(-1,4), ylim=c(0.0,0.8), type="l", col=rgb(0,0,1))
 
