@@ -9,7 +9,7 @@ x <- read.table("fisher_f_distribution.tsv")
 # 1列目だけを抜き出す
 value = x$V1
 
-# ｸﾞﾗﾌを縦に2つ
+# グラフを縦に2つ
 par(mfrow=c(2, 1))
 
 # 1つ目：データをプロットとして出力
