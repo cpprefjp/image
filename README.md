@@ -5,3 +5,4 @@
 
 cpprefjpサイトのアイコン・ロゴ画像に関しては、[クリエイティブ・コモンズ 表示 - 非営利 - 改変禁止 4.0 国際 (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja)の下に提供しています。
 
+cpprefjp/site の Markdown から参照する場合は`![代替文字列](https://raw.githubusercontent.com/cpprefjp/image/master/画像ファイルパス)`として下さい。
