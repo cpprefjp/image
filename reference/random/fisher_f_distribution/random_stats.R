@@ -15,5 +15,5 @@ par(mfrow=c(2, 1))
 # 1つ目：データをプロットとして出力
 plot(value)
 
-# 2つ目：密度をプロットとして出力
-plot(density(value))
+# 2つ目：ヒストグラムとして出力
+hist(value)

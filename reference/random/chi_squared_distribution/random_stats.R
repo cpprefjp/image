@@ -12,7 +12,4 @@ value = x$V1
 # 以下、データの特性に合わせて、ヒストグラムかプロットかを選択してください。
 
 # ヒストグラムとして出力
-# hist(value)
-
-# プロットとして出力
-plot(density(value))
+hist(value)
