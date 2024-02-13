@@ -7,7 +7,7 @@ png("weibull_distribution.png")
 x <- read.table("weibull_distribution.tsv")
 
 # 1列ずつ抜き出す
-values = x$V1
+value1 = x$V1
 value2 = x$V2
 
 # プロットとして出力
@@ -15,5 +15,8 @@ value2 = x$V2
 #par(new=T)
 #plot(density(value2), xlim=c(-1,10), ylim=c(0.0,0.8), col=rgb(0,0,1))
 
-hist(values, col=rgb(0,1,0,0.2), main="")
-hist(value2, col=rgb(0,0,1,0.2), add=T)
+# グラフを縦に2つ
+par(mfrow=c(2, 1))
+
+hist(value1, col=rgb(0,1,0,0.2))
+hist(value2, col=rgb(0,0,1,0.2))
